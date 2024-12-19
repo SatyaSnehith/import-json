@@ -1,0 +1,60 @@
+{
+  "id": "frame1",
+  "name": "Main Frame",
+  "type": "FRAME",
+  "width": 400,
+  "height": 100,
+  "x": 0,
+  "y": 0,
+  "styles": {
+    "fill": { "r": 1, "g": 1, "b": 1 },
+    "stroke": null,
+    "fontSize": null,
+    "fontFamily": null
+  },
+  "autoLayout": {
+    "direction": "HORIZONTAL",
+    "spacing": 10,
+    "padding": { "top": 20, "right": 20, "bottom": 20, "left": 20 },
+    "alignment": "MIN",
+    "crossAxisAlignment": "CENTER"
+  },
+  "children": [
+    {
+      "id": "icon1",
+      "name": "Icon",
+      "type": "RECTANGLE",
+      "width": 50,
+      "height": 50,
+      "x": 0,
+      "y": 0,
+      "styles": {
+        "fill": { "r": 0, "g": 0, "b": 1 },
+        "stroke": null,
+        "fontSize": null,
+        "fontFamily": null
+      },
+      "autoLayout": null,
+      "children": [],
+      "iconUrl": "https://cdn.glitch.me/4c9ebeb9-8b9a-4adc-ad0a-238d9ae00bb5%2Fmdn_logo-only_color.svg"
+    },
+    {
+      "id": "text1",
+      "name": "Text",
+      "type": "TEXT",
+      "width": 300,
+      "height": 50,
+      "x": 60,
+      "y": 0,
+      "styles": {
+        "fill": { "r": 0, "g": 0, "b": 0 },
+        "stroke": null,
+        "fontSize": 16,
+        "fontFamily": "Arial"
+      },
+      "autoLayout": null,
+      "children": [],
+      "text": "This is a sample text"
+    }
+  ]
+}
